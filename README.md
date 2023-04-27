@@ -1,2 +1,2 @@
 # Portfolio em andamanto 🛠️
-https://sopax.netlify.app/
+https://aglair.netlify.app/
