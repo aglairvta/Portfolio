@@ -1,0 +1,79 @@
+.containerContato {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin: 9rem auto; 
+}
+
+.containerContato .card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.containerContato .card svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.containerContato a {
+    font-size: 16px;
+    color: #333;
+}
+
+/*hover*/
+.containerContato .card:hover {
+    margin-top: 2rem;
+}
+
+.containerContato .linkedin:hover {
+    background-color: #70a5da;
+}
+
+.containerContato .github:hover {
+    background-color: #0a0d13;
+}
+
+.containerContato .github:hover svg {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.containerContato .gmail:hover {
+    background-color: #d8847c;
+}
+
+.containerContato .card:hover a {
+    color: white;
+    transition: 0.5s;
+}
+
+
+/*responsividade*/
+@media screen and (max-width: 600px) {
+    .containerContato .card {
+        width: 100%; 
+        height: 150px; 
+    }
+
+    .containerContato {
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .containerContato .card svg {
+        width: 60px; 
+        height: 60px; 
+    }
+}
+

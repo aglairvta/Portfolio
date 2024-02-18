@@ -1,0 +1,128 @@
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Vittorya Aglair</title>
+
+            <!--github-icon-->
+            <a href="https://github.com/aglairvta" class="github-corner" target="_blank" aria-label="Ir ao Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+            
+            <!--Fonte-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!--Meu CSS-->
+            <link rel="stylesheet" href="./assets/css/home.css">
+            <link rel="stylesheet" href="./assets/css/reset.css">
+            <link rel="stylesheet" href="./assets/css/main.css">
+            <link rel="stylesheet" href="./assets/css/projetos.css">
+            <link rel="stylesheet" href="./assets/css/contato.css">
+
+            <!--TypeIt-->
+            <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
+            <!--Meu JS-->
+            <script defer src="./assets/js/home.js"></script>
+            <script defer src="./assets/js/efeitoDigitacao.js"></script>
+            <script defer src="./assets/js/main.js"></script>
+        </head>
+        <body>
+
+            <nav>
+                <div class="menu-btn">
+                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+                </div>
+            
+                <ul>
+                    <li> <a href="#Home" class="active" onclick="showSection('Home')">Home</a></li>
+                    <li> <a href="#Projetos" onclick="showSection('Projetos')">Projetos</a></li>
+                    <li> <a href="#Contato" onclick="showSection('Contato')">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <section id="Home" class="active">
+                    <div class="apresentacao">
+                        <div class="imagem">
+                            <img src="./assets/img/img-principal.svg" alt="imagem-main">
+                        </div>
+                
+                        <h1>Vittorya Aglair</h1>
+                
+                        <h2 class="funcao">Desenvolvedora <span>web</span>.</h2>
+
+                        <div class="btn-linkedin">
+                            <a href="https://www.linkedin.com/in/vittorya-aglair/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M12 9.55C12.917 8.613 14.111 8 15.5 8a5.5 5.5 0 0 1 5.5 5.5V21h-2v-7.5a3.5 3.5 0 0 0-7 0V21h-2V8.5h2v1.05zM5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 2h2V21H4V8.5z"/> </g> </svg>
+                                </a>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="Projetos" style="display: none">
+                    <div class="containerProjetos">
+                        <!--Primeiro projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/calculadora.gif" alt="Calculadora">
+                            </div>
+                            <h2>Calculadora</h2>
+                            <div class="content">
+                                <p>Calculadora utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="#">Visualizar</a>
+                            </div>
+                        </div>
+                        <!--Segundo projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/checklist.gif" alt="Calculadora">
+                            </div>
+                            <h2>Checklist</h2>
+                            <div class="content">
+                                <p>Checklist utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="https://checklistva.netlify.app/" target="_blank">Visualizar</a>
+                            </div>
+                        </div>
+                        <!--Terceiro projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/cronometro.gif" alt="Calculadora">
+                            </div>
+                            <h2>Cronômetro</h2>
+                            <div class="content">
+                                <p>Cronômetro utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="https://cronometrova.netlify.app/" target="_blank">Visualizar</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="Contato" style="display: none">
+                    <div class="containerContato">
+                        <div class="card linkedin">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><circle cx="88" cy="80" r="8"/></svg>
+                            <a href="https://www.linkedin.com/in/vittorya-aglair/" target="_blank">Linkedin</a>
+                        </div>
+                      
+                        <div class="card github">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0z"/>
+                                <path fill-rule="nonzero" d="M5.883 18.653c-.3-.2-.558-.455-.86-.816a50.32 50.32 0 0 1-.466-.579c-.463-.575-.755-.84-1.057-.949a1 1 0 0 1 .676-1.883c.752.27 1.261.735 1.947 1.588-.094-.117.34.427.433.539.19.227.33.365.44.438.204.137.587.196 1.15.14.023-.382.094-.753.202-1.095C5.38 15.31 3.7 13.396 3.7 9.64c0-1.24.37-2.356 1.058-3.292-.218-.894-.185-1.975.302-3.192a1 1 0 0 1 .63-.582c.081-.024.127-.035.208-.047.803-.123 1.937.17 3.415 1.096A11.731 11.731 0 0 1 12 3.315c.912 0 1.818.104 2.684.308 1.477-.933 2.613-1.226 3.422-1.096.085.013.157.03.218.05a1 1 0 0 1 .616.58c.487 1.216.52 2.297.302 3.19.691.936 1.058 2.045 1.058 3.293 0 3.757-1.674 5.665-4.642 6.392.125.415.19.879.19 1.38a300.492 300.492 0 0 1-.012 2.716 1 1 0 0 1-.019 1.958c-1.139.228-1.983-.532-1.983-1.525l.002-.446.005-.705c.005-.708.007-1.338.007-1.998 0-.697-.183-1.152-.425-1.36-.661-.57-.326-1.655.54-1.752 2.967-.333 4.337-1.482 4.337-4.66 0-.955-.312-1.744-.913-2.404a1 1 0 0 1-.19-1.045c.166-.414.237-.957.096-1.614l-.01.003c-.491.139-1.11.44-1.858.949a1 1 0 0 1-.833.135A9.626 9.626 0 0 0 12 5.315c-.89 0-1.772.119-2.592.35a1 1 0 0 1-.83-.134c-.752-.507-1.374-.807-1.868-.947-.144.653-.073 1.194.092 1.607a1 1 0 0 1-.189 1.045C6.016 7.89 5.7 8.694 5.7 9.64c0 3.172 1.371 4.328 4.322 4.66.865.097 1.201 1.177.544 1.748-.192.168-.429.732-.429 1.364v3.15c0 .986-.835 1.725-1.96 1.528a1 1 0 0 1-.04-1.962v-.99c-.91.061-1.662-.088-2.254-.485z"/>
+                              </svg>
+                              <a href="https://github.com/aglairvta" target="_blank">Github</a>
+                        </div>
+                      
+                        <div class="card gmail">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aglairvit@gmail.com&su=Oportunidade%20Profissional%20-%20Interesse%20no%20seu%20Portfólio&body=Ol%C3%A1%2C%0D%0A%0D%0AEspero%20que%20esta%20mensagem%20a%20encontre%20bem.%20Recentemente%2C%20tive%20a%20oportunidade%20de%20revisar%20o%20seu%20portf%C3%B3lio%20e%20fiquei%20impressionado%20(a)%20com%20o%20seu%20trabalho.%0D%0A%0D%0AGostaria%20de%20discutir%20oportunidades%20potenciais%20de%20colabora%C3%A7%C3%A3o%20ou%20poss%C3%ADveis%20projetos%20em%20que%20voc%C3%AA%20possa%20estar%20interessada.%20Estou%20bastante%20interessado%20(a)%20em%20explorar%20como%20podemos%20trabalhar%20juntos%20e%20como%20sua%20experi%C3%AAncia%20poderia%20agregar%20valor%20aos%20projetos%20que%20estamos%20desenvolvendo.%0D%0A%0D%0APor%20favor%2C%20deixe-me%20saber%20se%20voc%C3%AA%20estaria%20dispon%C3%ADvel%20para%20uma%20conversa.%20Fico%20ansioso%20(a)%20para%20discutir%20mais%20detalhes.%0D%0A%0D%0ACordialmente%2C%0D%0A[Seu%20Nome]" target="_blank">Gmail</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </body>
+        </html>
+
