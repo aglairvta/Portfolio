@@ -4,7 +4,10 @@ em meu portfólio com novas skills que estou
 aprendendo.</p>
 
 ### Demo:
-![Portfólio](Portfólio%202.0/assets/demo/portfolio.gif)
+
+<p align="center">
+  <img src="Portfólio%202.0/assets/demo/portfolio.gif" alt="Portfólio" />
+</p>
 
 <p align="center">
  Veja no ar: <a href="https://aglair.netlify.app/">Demo</a>
